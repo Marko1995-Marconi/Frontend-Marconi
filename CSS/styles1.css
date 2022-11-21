@@ -1,0 +1,89 @@
+body {
+    color: #c02b2b;
+    margin: 10;
+    text-align: center;
+    font-family: 'Caveat', cursive;
+    font-family: 'Rubik Distressed', cursive;
+}
+
+h1 {
+    text-align: center;
+    color: red;
+  }
+
+h2 {
+    font-size: 2.5rem;
+    color: rgba(197, 29, 29, 0.733);
+    font-weight: normal;
+    padding-bottom: 10px;
+    text-shadow: 3px 3px 5px rgba(26, 2, 8, 0.411);
+}
+
+h3 {
+    font-size: 20px;
+    color: rgba(221, 98, 98, 0.733);
+    font-weight: normal;
+    padding-bottom: 50px;
+    text-shadow: 3px 3px 5px rgba(212, 96, 125, 0.411);
+}
+
+p {
+    font-size: 20px;
+    color: rgba(221, 98, 98, 0.733);
+    font-weight: normal;
+    padding-bottom: 50px;
+    text-shadow: 3px 3px 5px rgba(212, 96, 125, 0.411);
+}
+
+
+hr {
+    border: dotted rgba(218, 45, 14, 0.068) 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+}
+
+#profil {
+    height: 350px;
+}
+
+
+.Uvod {
+    width: 30%;
+    margin: auto;
+}
+
+
+.CR {
+    color: #000502;
+    font-size: 1.5rem;
+    padding: 20px 0;
+}
+
+.FTR {
+    width: 70%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+}
+
+.Street {
+    width: 20%;
+    float: left;
+    margin-right: 30px;
+}
+
+.Book {
+    width: 20%;
+    float: center;
+    margin-left: 30px;
+}
+
+.middle-container {
+    margin: 100px 0;
+}
+
+.bottom-container {
+    background-color: #df4e6ddc;
+    padding: 50px 0 20px;
+}
+
