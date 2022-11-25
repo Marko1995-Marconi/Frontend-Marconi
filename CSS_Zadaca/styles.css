@@ -1,0 +1,49 @@
+/* <div id="green"></div>
+<div id="blue"></div>
+<div id="red-SQ"></div>
+<div id="red-CI"></div> */
+
+
+#green {
+    border: solid green;
+    height: 95px;
+    width: 350px;
+}
+
+#blue {
+    border: solid blue;
+    position: absolute;
+    bottom: 0;
+    height: 370px;
+    width: 600px;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#red-SQ {
+    border: solid red;
+    height: 90px;
+    width: 90px;
+    position: absolute;
+    right: 0;
+    margin-top: auto;
+    margin-bottom: auto;
+    bottom: 0;
+    top: 0;
+}
+
+#red-CI {
+    border: solid red;
+    position: absolute;
+    border-radius: 250px;
+    height: 100px;
+    width: 100px;
+    left: 1220px;
+    bottom: 0;
+}
+
+p {
+    border: solid rgb(208, 255, 0);
+}
