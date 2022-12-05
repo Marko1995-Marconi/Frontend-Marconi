@@ -1,0 +1,79 @@
+body {
+    background: 
+    background-size: cover;
+    font-family: "Times New Roman", monospace;
+  }
+  
+  .flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 90vh;
+  }
+  .flex-container div {
+    transform: translate(0%, -250%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    color: rgb(124, 163, 79);
+    margin: auto;
+    font-size: 5rem;
+    border: 4px solid white;
+    width: 300px;
+    height: 250px;
+  }
+  .flex-container :nth-child(1) {
+    -webkit-animation-name: animation1;
+            animation-name: animation1;
+    -webkit-animation-duration: 1.5s;
+            animation-duration: 1.5s;
+    -webkit-animation-iteration-count: 1;
+            animation-iteration-count: 1;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
+    -webkit-animation-delay: 1.5s;
+            animation-delay: 1.5s;
+    background-color: rgba(223, 179, 59, 0.5);
+  }
+  .flex-container :nth-child(2) {
+    -webkit-animation-name: animation1;
+            animation-name: animation1;
+    -webkit-animation-duration: 1.5s;
+            animation-duration: 1.5s;
+    -webkit-animation-iteration-count: 1;
+            animation-iteration-count: 1;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
+    -webkit-animation-delay: 3s;
+            animation-delay: 3s;
+    background-color: rgba(167, 150, 1, 0.5);
+  }
+  .flex-container :nth-child(3) {
+    -webkit-animation-name: animation1;
+            animation-name: animation1;
+    -webkit-animation-duration: 1.5s;
+            animation-duration: 1.5s;
+    -webkit-animation-iteration-count: 1;
+            animation-iteration-count: 1;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
+    -webkit-animation-delay: 4.5s;
+            animation-delay: 4.5s;
+    background-color: rgba(7, 91, 218, 0.5);
+  }
+  
+  @-webkit-keyframes animation1 {
+    0% {
+      transform: translate(0%, -250%);
+    }
+    100% {
+      transform: translate(0%, 0%);
+    }
